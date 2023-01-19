@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // MongoDB URL
-const mongoURI = 'mongodb://localhost:27017/Quotes';
+const mongoURI = 'mongodb+srv://Harshu:test@cluster0.msyevpe.mongodb.net/Quotes?retryWrites=true&w=majority';
 
 // Connecting to the database
 const connectToMongo = () => {
